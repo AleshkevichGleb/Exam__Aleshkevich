@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 .navbar {
     display: flex;
@@ -39,7 +39,7 @@
     padding-right: 20px;
 }
 
-.header__cart {
+.circle {
     border-radius: 50%;
     background-color: var(--color-darkBlue);
     width: 56px;

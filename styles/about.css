@@ -39,6 +39,7 @@
     line-height: 50px;
     color: var(--color-darkBlue);
     margin: 22px 0;
+    font-weight: 700;
 }
 
 .about__descreption {

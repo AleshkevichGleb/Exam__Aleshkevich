@@ -1,0 +1,128 @@
+.testimonial {
+    background-image: url(../images/testimonial-bg.png);
+    background-size: cover;
+}
+
+.testimonial__container {
+    max-width: 1440px;
+    margin:  0 auto;
+    padding: 130px 0;
+}
+
+.testimonial__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.testimonial__supTitle {
+    font-family: 'Yellowtail', sans-serif;
+    color: var(--color-green);
+    font-size: calc(23px + 1vw);
+}
+
+.testimonial__title {
+    font-size: calc(25px + 1vw);
+    line-height: 50px;
+    color: var(--color-darkBlue);
+    margin: 15px 0 40px 0;
+    font-weight: 700;
+}
+
+.testimonial__image {
+    margin: 60px 0 18px 0;
+    width: 115px;
+    height: 115px;
+}
+
+.testimonial__text {
+    margin: 30px 0 25px 0;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__name {
+    font-weight: 700;
+    color: var(--color-darkBlue);
+    font-size: calc(18px + 1vw);
+    margin-bottom: 10px;
+}
+
+.testimonial__job {
+    font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.hr {
+    background-color: #E0E0E0;
+    width: 966px;
+    margin: 96px 10px 100px 10px;
+    height: 2px;
+}
+
+.testimonial__block {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial__item {
+    width: 250px;
+    height: 250px;
+    border: 5px solid var(--color-green);
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial__item::before {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    background-color: #F1F1F1;
+    left: 2%;
+    top: 2%;
+    border-radius: 50%;
+
+}
+
+.testimonial__itemNum {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: var(--color-darkBlue);
+    font-size: calc(24px + 1vw);
+    line-height: 45px;
+}
+
+.testimonial__itemName {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: var(--color-darkBlue);
+    font-size: 18px;
+    font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 32px;
+}
+
+@media (max-width:1141px) {
+    .testimonial__block {
+       margin: 0 140px;
+    }
+}
+@media (max-width:867px) {
+    .testimonial__block {
+       margin: 0 10px;
+    }
+}

@@ -1,0 +1,59 @@
+.food {
+    padding: 140px 0;;
+}
+
+.food__container {
+    max-width: 1440px;
+    height: 100%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.food__content {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+
+}
+
+.food__item {
+    width: 46.2%;
+    height: 378px;
+    border-radius: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.banana {
+    background-image: url(../images/banana.png);
+}
+
+.vegetables {
+    background-image: url(../images/vegetables.png);
+}
+
+.food__title {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: calc(23px + 1vw);
+    margin-bottom: 20px;
+}
+
+.food__title--green{
+    color: var(--color-green);
+}
+
+.food__text {
+    font-size: calc(25px + 1vw);
+    line-height: 45px;
+}
+
+.food__text--blue {
+    color: var(--color-darkBlue);
+}

@@ -16,6 +16,7 @@
 
 .welcome__content {
     max-width: 530px;
+    margin: 0 10px;
 }
 
 .welcome__supTitle {
@@ -29,6 +30,7 @@
 
 .welcome__title {
     margin: 30px 0;
+    line-height: 85px;
 }
 
 .button {

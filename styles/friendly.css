@@ -58,9 +58,6 @@
     line-height: 32px;
 }
 
-.products__item:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
 @media (max-width:1400px) {
     .friendly__item {
         margin-left: 580px;

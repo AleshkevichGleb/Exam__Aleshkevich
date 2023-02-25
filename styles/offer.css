@@ -1,0 +1,52 @@
+.offer {
+    padding: 140px 0 160px 0;
+    background-color: #274C5B
+}
+
+.offer__container {
+    max-width: 1440px;
+    margin:  0 auto;
+}
+
+.offer__content {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.offer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.offer__supTitle {
+    font-family: 'Yellowtail', sans-serif;
+    color: var(--color-green);
+    font-size: calc(23px + 1vw);
+}
+
+.offer__title {
+    font-size: calc(25px + 1vw);
+    line-height: 50px;
+    color: #fff;
+    margin: 22px 0;
+    font-weight: 700;
+}
+
+.button--big {
+    padding: 25px 15px;
+    width: 267px;
+    height: 82px;
+}
+
+.button__text--big {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button--big:hover {
+    background-color: #192e36;
+}

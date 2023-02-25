@@ -1,0 +1,117 @@
+.friendly {
+    
+}
+
+.friendly__container {
+    max-width: 1440px;
+    margin:  0 auto;
+}
+
+.friendly__content {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.friendly__block {
+    max-width: 720px;
+    height: 704px;
+}
+
+.friendly__image {
+    width: 720px;
+    height: 704px;
+}
+
+.friendly__item {
+    margin-left: 660px;
+    background-color: #fff;
+    border-radius: 30px;
+    top: 6%;
+    width: 720px;
+    height: 623px;
+    position: absolute;
+    padding: 40px 40px 55px 60px;
+}
+
+.friendly__supTitle {
+    font-family: 'Yellowtail', sans-serif;
+    color: var(--color-green);
+    font-size: calc(23px + 1vw);
+}
+
+.friendly__title {
+    font-size: calc(25px + 1vw);
+    line-height: 56px;
+    color: var(--color-darkBlue);
+    margin: 22px 0;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.friendly__nameState {
+    margin: 20px 0 15px 0;
+    font-size: 23px;
+    color: var(--color-darkBlue);
+    font-weight: 700;
+}
+
+.friendly__text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+@media (max-width:1400px) {
+    .friendly__item {
+        margin-left: 580px;
+    }
+}
+@media (max-width:1320px) {
+    .friendly__item {
+        margin-left: 500px;
+    }
+}
+@media (max-width:1240px) {
+    .friendly__item {
+        margin-left: 420px;
+    }
+}
+@media (max-width:1160px) {
+    .friendly__item {
+        margin-left: 340px;
+    }
+}
+@media (max-width:1080px) {
+    .friendly__item {
+        margin-left: 260px;
+    }
+}
+@media (max-width:1000px) {
+    .friendly__item {
+        margin-left: 180px;
+    }
+}
+@media (max-width:920px) {
+    .friendly__item {
+        margin-left: 100px;
+    }
+}
+@media (max-width:860px) {
+    .friendly__image {
+      display: none;
+    }
+    
+    .friendly__item {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 0;
+        background-color: #fff;
+        border-radius: 30px;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        position: absolute;
+        padding: 40px 40px 55px 60px;
+    }
+}

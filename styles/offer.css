@@ -50,3 +50,55 @@
 .button--big:hover {
     background-color: #192e36;
 }
+
+@media (max-width:1540px) {
+    .products__item {
+        width: 347px;
+        height: 490px;
+    }
+    .products__type {
+        width: 100px;
+        min-height: 27px;
+    }
+    
+    .products__image {
+        width: 287px;
+        height: 278px;
+    }
+    
+    .products__name {
+        color: var(--color-darkBlue);
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    
+    .products__priceBlock {
+        border-top: 1px solid var(--color-grey);
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    
+    .products__lastPrice {
+        font-size: 15px;
+    }
+    
+    .products__price {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:776px) {
+    .products__item {
+        width: 90%;
+        margin: 0 auto;
+        height: 490px;
+    }
+}
+@media(max-width:400px) {
+    .products__image {
+        width: 227px;
+        height: 228px;
+    }
+}

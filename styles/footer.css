@@ -10,7 +10,6 @@
     max-width: 1380px;
     margin: 0 auto;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .footer__block {
@@ -45,7 +44,7 @@
 
 .footer__block--textalign--center {
     text-align: center;
-    width: 670px;
+    max-width: 670px;
     border-right: 1px solid #D5D5D5;
     border-left: 1px solid #D5D5D5;
     padding: 0 52px;
@@ -83,4 +82,39 @@
 .footer__socialItem:hover {
     transform: scale(1.1); 
     background-color: #d1d1de;
+}
+
+@media(max-width:1165px) {
+    .footet__top {
+        flex-wrap: wrap;
+    }
+    .footer__block--textalign--center {
+       border: none;
+       order: 2;
+    }
+
+    .footer__block--textalign-right {
+        margin-right: 20%;
+    }
+}
+@media(max-width:563px) {
+    .footet__top {
+        gap: 70px;
+    }
+    .footer__block--textalign-right {
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .footer__block {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__block--textalign--center {
+        order: 0;
+     }
+
+     .footer__social {
+        flex-wrap: wrap;
+     }
 }

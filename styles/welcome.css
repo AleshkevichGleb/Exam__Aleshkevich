@@ -72,3 +72,13 @@
 .button:active {
     transform: scale(.8);
 }
+
+@media (max-width:740px) {
+    h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .welcome__supTitle {
+        font-size: 28px;
+    }
+}

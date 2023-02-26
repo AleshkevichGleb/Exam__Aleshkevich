@@ -54,3 +54,21 @@
 .food__text--blue {
     color: var(--color-darkBlue);
 }
+
+@media (max-width:998px) {
+    .food__content {
+        flex-wrap: wrap;
+    }
+    .food__item {
+        width: 90%;
+    }
+}
+@media (max-width:520px) {
+    .banana {
+        background-position: center center;
+    }
+    
+    .vegetables {
+        background-position: center center;
+    }
+}

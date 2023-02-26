@@ -47,3 +47,32 @@
     background-image: url(../images/cookies.png);
     background-size: cover;
 }
+
+@media(max-width:1540px) {
+    .services__item {
+        width: 400px;
+        height: 480px;
+    }
+    
+    .services__itemTitle {
+        width: 233px;
+        height: 95px;
+    }
+}
+@media(max-width:944px) {
+    .services__item {
+        width: 320px;
+        height: 400px;
+    }
+    
+    .services__itemTitle {
+        width: 313px;
+        height: 95px;
+    }
+}
+
+@media(max-width:515px) {
+    .services__item{ 
+        width: 85%;
+    }
+}

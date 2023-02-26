@@ -55,7 +55,6 @@
     align-items: center;
     gap:20px;
     margin-bottom: 30px;
-
 }
 
 .about__itemImage {
@@ -95,4 +94,26 @@
 
 .button__text--white {
     color: #fff;
+}
+
+@media (max-width:998px) {
+    .about__block {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin:  0 auto;
+    }
+    .about__block--image {
+        display: none;
+    }
+}
+@media (max-width:470px) {
+    .about__item {
+        display: flex;
+        align-items: center;
+        gap:20px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
 }

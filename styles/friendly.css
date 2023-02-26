@@ -94,6 +94,11 @@
     }
 }
 @media (max-width:860px) {
+
+    .friendly {
+        padding: 20px 0;
+    }
+
     .friendly__image {
       display: none;
     }
@@ -101,13 +106,12 @@
     .friendly__item {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         margin-left: 0;
+        margin: 0 auto;
         background-color: #fff;
-        border-radius: 30px;
-        top: 5%;
-        left: 5%;
+        border-radius: 0;
         width: 90%;
         height: auto;
-        position: absolute;
+        position: static;
         padding: 40px 40px 55px 60px;
     }
 }

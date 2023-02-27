@@ -9,5 +9,4 @@ Custom responsive slide which works  on mobile and desktop devices.
 
 ### Installation
 1.  Open the terminal.
-2.  Register a command git remote add "link"
-3.  Register a command git pull origin "branch"
+2.  Register a command git clone https://github.com/AleshkevichGleb/Exam__Aleshkevich.git
